@@ -15,4 +15,3 @@ read_file2.close()
 for line in contents_file1:
     if line not in contents_file2:
         print(line)
-        
