@@ -10,8 +10,9 @@ class Counter:
         Counter.count += 1
         self.value = 0
 
-    def get_count(self):
-        return self.count
+    @staticmethod
+    def get_count():
+        return Counter.count
 
     def method_called(self):
         self.value += 1
