@@ -1,6 +1,6 @@
 # Напишіть рекурсивну функцію, яка обчислює суму цифр заданого числа.
 
-def recursive_sum(number):
+def recursive_sum(number: int) -> int:
     if number < 10:
         return number
 
